@@ -22,6 +22,7 @@
 .header__link {
   border-bottom: 1px solid;
   text-decoration: none;
+  letter-spacing: 0.18px;
 }
 
 .header__link_active {
@@ -41,6 +42,7 @@
 
 .header__address {
   justify-self: end;
+  padding-right: 34px;
 }
 
 .address a {
@@ -66,7 +68,8 @@
 .cover__title {
   position: relative;
   z-index: 1;
-  margin-bottom: 135px;
+  margin-top: 27px;
+  margin-bottom: 129px;
   color: #fff;
   font-size: 100px;
   line-height: 1.15;
@@ -76,16 +79,20 @@
   
 .aligned-text {
   display: block;
-  margin-top: 20px;
   line-height: 115%;
 }
-  
+
 .aligned-text_center {
+  margin-top: 15px;
   text-align: center;
 }
 
 .aligned-text_right {
   text-align: right;
+}
+
+.aligned-text_bottom {
+  margin-top: 27px;
 }
 
 .letter-spacing-extended {
@@ -113,9 +120,9 @@
 }
 
 .bet-button {
-  border: 1px solid #fff;
-  padding: 12px 32px;
   color: #fff;
+  border: 1px solid currentColor;
+  padding: 12px 32px;
   font-weight: normal;
   font-size: 22px;
   text-transform: uppercase;
